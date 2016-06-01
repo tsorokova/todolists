@@ -1,5 +1,4 @@
 <?php
-session_start();
 require './model/User.php';
 $user = new User;
 
@@ -10,3 +9,4 @@ $user = new User;
 		require_once './view/register.php.html';
 	}
 ?>
+
